@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+
+.logo-img {
+    width: auto;
+    height: 180px;
+    float: right;
+}
+
+.nina-img {
+    width: 300px;
+    height: auto;
+}
+
+
+body {
+    background-color: rgb(128, 255, 9);
+  margin: 0;
+  background: #c4caef 58%;
+  background: linear-gradient(90deg, #c4caef 58%,rgb(128, 255, 9));
+  font-family: 'Inter', sans-serif;
+}
+
+.about_me {
+    display: flex;
+}
+
+
+.card {
+    width: 400px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+  }
+  
+  .card-title {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+  }
+
+  p, a {
+    font-size: 1rem;
+  }
+  
+  a {
+    color: rgb(100, 206, 2);
+    text-decoration: none;
+  }
+
+  .sadman {
+      width: 140px;
+      height: 140px;
+  }
